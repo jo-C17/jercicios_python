@@ -55,7 +55,7 @@ else:
 
 a=int(input("Ingrese el primer número: "))
 b=int(input("Ingrese el segundo número: "))
-c=int(input("Ingrese el tercer número: "))
+c=int(input("Ingrese el tercer número : "))
 
 if a>b and a>c:
     print(f"El mayor es {a}")

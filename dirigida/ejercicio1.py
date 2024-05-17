@@ -5,7 +5,7 @@ anterior a la M y los hombres con un nombre posterior a la N y el grupo B por el
 resto. Escribir un programa que pregunte al usuario su nombre y sexo, y
 muestre por pantalla el grupo que le corresponde.'''
 nombre=input("Ingrese su nombre: ")
-sexo=input("Ingrese su sexo: ")
+sexo=input("Ingrese su sexo :  ")
 new_nombre=nombre.lower()
 
 if sexo=='femenino' and new_nombre[0]<'m' or sexo=='masculino' and new_nombre[0]>'n':
